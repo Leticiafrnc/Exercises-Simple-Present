@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercises | Teacher - Maria Olívia </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+	<script type="text/javascript" src="js/function.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+	
+		<h2>Exercises | Simple Present</h2>
+		<h3>DO, DOES, DID e WILL</h3>
+
+</div><!--header-->
+<div class="clear"></div>
+<div class="container">
+	
+	<form  name="form1"> 
+		<label  for="pergunta">1- I buy cakes every day?</label>
+		<select name="pergunta" id="sel">
+			<option value="certa">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+		</select>
+		<button value="enviar" onclick="return valida()">Enviar</button>
+	</form><!--form1-->
+
+	<div class="clear"></div>
+	<form  name="form2"> 
+		 <label for="pergunta">2 - you go to the party tomorrow?</label>
+		<select name="pergunta" id="sel2">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="certa">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida2()">Enviar</button>
+</form><!--form2-->
+
+<div class="clear"></div>
+	<form name="form3"> 
+		 <label  for="pergunta">3 - he watch TV yesterday?</label>
+		<select name="pergunta" id="sel3">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="certa">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida3()">Enviar</button>
+	</form><!--form3-->
+	<div class="clear"></div>
+	<form name="form4"> 
+		 <label  for="pergunta">4 - they watch TV in the mornings?</label>
+		<select name="pergunta" id="sel4">
+			<option value="certa">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida4()">Enviar</button>
+	</form><!--form4-->
+	
+	<div class="clear"></div>
+	<form name="form5"> 
+		 <label  for="pergunta">5 - your mother  listen to the radio in the kitchen?</label>
+		<select name="pergunta" id="sel5">
+			<option value="">Do</option>
+  			<option value="certa">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida5()">Enviar</button>
+	</form><!--form5-->
+	
+	<div class="clear"></div>
+	<form name="form6"> 
+		 <label  for="pergunta">6 - they cook a cake tomorrow morning?</label>
+		<select name="pergunta" id="sel6">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="certa">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida6()">Enviar</button>
+	</form><!--form6-->
+	
+	<div class="clear"></div>
+	<form name="form7"> 
+		 <label  for="pergunta">7 - they go to the beach last summer?</label>
+		<select name="pergunta" id="sel7">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="certa">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida7()">Enviar</button>
+	</form><!--form7-->
+	
+	<div class="clear"></div>
+	<form name="form8"> 
+		 <label  for="pergunta">8 - she want to go to live to another city?</label>
+		<select name="pergunta" id="sel8">
+			<option value="">Do</option>
+  			<option value="certa">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida8()">Enviar</button>
+	</form><!--form8-->
+	<br>
+	<div class="clear"></div>
+	<form name="form9"> 
+		 <label  for="pergunta">9 - I usually know the answer?</label>
+		<select name="pergunta" id="sel9">
+			<option value="certa">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida9()">Enviar</button>
+	</form><!--form9-->
+	
+	<div class="clear"></div>
+	<form name="form10"> 
+		 <label  for="pergunta">10 - she go to work tomorrow?</label>
+		<select name="pergunta" id="sel10">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="certa">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida10()">Enviar</button>
+	</form><!--form10-->
+		<div class="clear"></div>
+	<form name="form11"> 
+		 <label  for="pergunta">11 - we tell you it yesterday?</label>
+		<select name="pergunta" id="sel11">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="certa">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida11()">Enviar</button>
+	</form><!--form11-->
+	
+	<div class="clear"></div>
+	<form name="form12"> 
+		 <label  for="pergunta">12 - he like mushrooms?</label>
+		<select name="pergunta" id="sel12">
+			<option value="">Do</option>
+  			<option value="certa">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida12()">Enviar</button>
+	</form><!--form12-->
+	
+	<div class="clear"></div>
+	<form name="form13"> 
+		 <label  for="pergunta">13 - she work on Sundays?</label>
+		<select name="pergunta" id="sel13">
+			<option value="">Do</option>
+  			<option value="certa">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida13()">Enviar</button>
+	</form><!--form13-->
+	
+	<div class="clear"></div>
+	<form name="form14"> 
+		 <label  for="pergunta">14 - he get a present last Christmas?</label>
+		<select name="pergunta" id="sel14">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="certa">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida14()">Enviar</button>
+	</form><!--form14-->
+	
+	<div class="clear"></div>
+	<form name="form15"> 
+		 <label  for="pergunta">15 - he give me your letter yesterday?</label>
+		<select name="pergunta" id="sel15">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="certa">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida15()">Enviar</button>
+	</form><!--form15-->
+
+	<div class="clear"></div>
+	<form name="form16"> 
+		 <label  for="pergunta">16 - they know Mary?</label>
+		<select name="pergunta" id="sel16">
+			<option value="certa">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida16()">Enviar</button>
+	</form><!--form16-->
+	
+	<div class="clear"></div>
+	<form name="form17"> 
+		 <label  for="pergunta">17 - the sun  rise in the east?</label>
+		<select name="pergunta" id="sel17">
+			<option value="">Do</option>
+  			<option value="certa">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida17()">Enviar</button>
+	</form><!--form17-->
+	<div class="clear"></div>
+	<form name="form18"> 
+		 <label  for="pergunta">18 - birds sing their songs in cold winters?</label>
+		<select name="pergunta" id="sel18">
+			<option value="certa">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida18()">Enviar</button>
+	</form><!--form18-->
+	
+	<div class="clear"></div>
+	<form name="form19"> 
+		 <label  for="pergunta">19 - they go to the cinema last week?</label>
+		<select name="pergunta" id="sel19">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="">Will</option>
+  			<option value="certa">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida19()">Enviar</button>
+	</form><!--form19-->
+	
+	<div class="clear"></div>
+	<form name="form20"> 
+		 <label  for="pergunta">20 - I go to school next week?</label>
+		<select name="pergunta" id="sel20">
+			<option value="">Do</option>
+  			<option value="">Does</option>
+  			<option value="certa">Will</option>
+  			<option value="">Did</option>
+  		</select>
+		<button value="enviar" onclick="return valida20()">Enviar</button>
+	</form><!--form20-->
+</div><!--container-->
+<div class="clear"></div>
+<footer>
+	<p>Teacher - Maria Olívia |Desenvolvimento - Letícia Franco</p>
+</footer>
+</body>
+</html>
